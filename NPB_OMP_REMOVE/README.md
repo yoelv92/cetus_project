@@ -17,7 +17,7 @@ module load cetus
 * -dit <path> -Path to the directory containing the benchmark tests directorys (default=current directory)
  
 | Option | Description |Default|
-| ------ | ------ |
+| ------ | ------ | ------ |
 | -dir | Path to the directory containing the benchmark tests directorys | Current directory |
 | -c | The size for the input C or W  | C |
 | -t| Choosing which benchmark test to run (BT,LU,MG,CG,EP,SP,UA)  | Run all |
