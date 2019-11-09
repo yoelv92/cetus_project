@@ -8,7 +8,7 @@ module load intel
 
 module load cetus
 ```
-## Collaborative files
+### Collaborative files
 the files must be in the same directory with cetus_script.py.
 run_
 -dir 'path'	           	Path to the directory containing the tests   	default=current directory
