@@ -10,7 +10,7 @@ module load cetus
 ```
 ### Collaborative files
 #### The files must be in the same directory with cetus_script.py.
-*run_test.py
+* run_test.py
 
 -dir 'path'	           	Path to the directory containing the tests   	default=current directory
 -t <benchmark test>
