@@ -1,4 +1,6 @@
-### This directory contains NPB_OMP_REMOVE directory and inside ther is the Cetus compiler script.
+### This directory contains directories:
+* Retults - Contains graphs with comparisons between the benchmark tests run time results and the output results of their run
+* NPB_OMP_REMOVE - Contains the Cetus compiler script (cetus_script.py), benchmark test (BT,LU,MG,CG,EP,SP,UA) .
 
 # Cetus compiler script
 [cetus_script.py](https://github.com/yoelv92/cetus_project/blob/master/NPB_OMP_REMOVE/cetus_script.py)  is an script that the main purpose is to compile sourse to sourse using Cetus to make a parallel progrm and compile with icc Intel compiler and run benchmark test of the NAS problems (BT,LU,MG,CG,EP,SP,UA), as a result before using the script must to load the Cetus compiler and Intel icc compiler.
