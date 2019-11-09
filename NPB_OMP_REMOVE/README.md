@@ -4,9 +4,9 @@ cetus_script.py is an script that the main purpose is to compile sourse to sours
 as a result before using the script must to load the Cetus compiler and Intel icc compiler.
 the directives are:
 ```sh
-module load intel
+$ module load intel
 
-module load cetus
+$ module load cetus
 ```
 ### Collaborative files:
 #### The files must be in the same directory with cetus_script.py.
@@ -14,11 +14,11 @@ module load cetus
 * Makefile
 
 ### Script options: 
-| Option | Description |Default|
+| Option | Description | Default |
 | ------ | ------ | ------ |
-| -dir | Path to the directory containing the benchmark tests directorys | Current directory |
-| -c | The size for the input C or W  | C |
-| -t| Choosing which benchmark test to run (BT,LU,MG,CG,EP,SP,UA)  | Run all |
+| -dir <path>| Path to the directory containing the benchmark tests directorys | Current directory |
+| -c <test class>| The size for the input C or W  | C |
+| -t <benchmark test>| Choosing which benchmark test to run (BT,LU,MG,CG,EP,SP,UA)  | Run all |
 | -p | Compile sourse to sourse using Cetus to make benchmark test run in parallel | Not parallelize the benchmark test |
 | -g | Sending the benchmark test to run in the grid  | Not sending to grid |
 
