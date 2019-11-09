@@ -8,9 +8,14 @@ module load intel
 
 module load cetus
 ```
-### Collaborative files
+### Collaborative files:
 #### The files must be in the same directory with cetus_script.py.
 * run_test.py
+* Makefile
+
+### Script options:
+* -dit <path> - 	Path to the directory containing the benchmark tests directorys (default=current directory)
+    
 
 -dir 'path'	           	Path to the directory containing the tests   	default=current directory
 -t <benchmark test>
@@ -20,11 +25,6 @@ module load cetus
 -c 'C/W' 		   	problem size 					default=problem size C
 
 
-```bash
-module load intel
-
-module load cetus
-```
 
 ##Usage
 ```bash
