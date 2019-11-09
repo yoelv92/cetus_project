@@ -10,20 +10,19 @@ $ module load cetus
 ```
 ### Collaborative files:
 #### The files must be in the same directory with cetus_script.py.
-* run_test.py
-* Makefile
-
+* [Makefile](https://github.com/yoelv92/cetus_project/blob/master/NPB_OMP_REMOVE/Makefile) - Use to compile the tests
+* [run_test.py](https://github.com/yoelv92/cetus_project/blob/master/NPB_OMP_REMOVE/run_tests.py) - The script ment for runig the tests after compiling . 
 ### Script options: 
 | Option | Description | Default |
 | ------ | ------ | ------ |
-| -dir <path<>>| Path to the directory containing the benchmark tests directorys | Current directory |
-| -c <test class<>>| The size for the input C or W  | C |
-| -t <benchmark test<>>| Choosing which benchmark test to run (BT,LU,MG,CG,EP,SP,UA)  | Run all |
+| -dir | Path to the directory containing the benchmark tests directorys | Current directory |
+| -c | The size for the input class C or W  | C |
+| -t | Choosing which benchmark test to run (BT,LU,MG,CG,EP,SP,UA)  | Run all |
 | -p | Compile sourse to sourse using Cetus to make benchmark test run in parallel | Not parallelize the benchmark test |
 | -g | Sending the benchmark test to run in the grid  | Not sending to grid |
 
 #### To execute:
 ```sh
-python3 cetus_test.py  
+$ python3 cetus_test.py  -dir <path> -c <class> -t <test> 
 ```
 
