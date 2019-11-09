@@ -1,4 +1,4 @@
-### This directory contains directories:
+## This directory contains directories:
 * Retults - Contains graphs with comparisons between the benchmark tests run time results and the output results of their run
 * NPB_OMP_REMOVE - Contains the Cetus compiler script (cetus_script.py), benchmark test (BT,LU,MG,CG,EP,SP,UA) .
 
