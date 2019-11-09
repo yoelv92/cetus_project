@@ -16,9 +16,9 @@ $ module load cetus
 ### Script options: 
 | Option | Description | Default |
 | ------ | ------ | ------ |
-| -dir <<path>>| Path to the directory containing the benchmark tests directorys | Current directory |
-| -c <test class>| The size for the input C or W  | C |
-| -t <benchmark test>| Choosing which benchmark test to run (BT,LU,MG,CG,EP,SP,UA)  | Run all |
+| -dir <path<>>| Path to the directory containing the benchmark tests directorys | Current directory |
+| -c <test class<>>| The size for the input C or W  | C |
+| -t <benchmark test<>>| Choosing which benchmark test to run (BT,LU,MG,CG,EP,SP,UA)  | Run all |
 | -p | Compile sourse to sourse using Cetus to make benchmark test run in parallel | Not parallelize the benchmark test |
 | -g | Sending the benchmark test to run in the grid  | Not sending to grid |
 
