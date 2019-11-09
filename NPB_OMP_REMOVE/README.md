@@ -9,8 +9,9 @@ module load intel
 module load cetus
 ```
 ### Collaborative files
-#### the files must be in the same directory with cetus_script.py.
-run_
+#### The files must be in the same directory with cetus_script.py.
+*run_test.py
+
 -dir 'path'	           	Path to the directory containing the tests   	default=current directory
 -t <benchmark test>
     choos	test benchmark to run				default=run all the tests
