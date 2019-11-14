@@ -24,14 +24,15 @@ def cetus_compiler(main_dir,cetus_dir,test):
     cetus_test_dir='{}/{}'.format(cetus_dir, test.upper())
     
     subprocess.run(['cp -r ../common/*.h .' ], shell=True, cwd=cetus_test_dir)
-
+    subprocess.run([' cetus -alias=3 *.c  '], shell=True, cwd=cetus_test_dir)
+    '''
     for root, dirs, files in os.walk(cetus_test_dir):
         for file in files:
           if os.path.splitext(file)[1] == '.c': 
               
-              subprocess.run([' cetus -alias=3 {}  '.format(file)], shell=True, cwd=cetus_test_dir)
+              subprocess.run([' cetus -alias=0 {}  '.format(file)], shell=True, cwd=cetus_test_dir)
              
-            
+    '''       
     subprocess.run(['mv cetus_output/* {}'.format(cetus_test_dir)], shell=True, cwd=cetus_test_dir)        
     subprocess.run(['rm -r cetus_output'], shell=True, cwd=cetus_test_dir)
 #---------------------------------------------------------------- 

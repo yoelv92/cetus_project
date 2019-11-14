@@ -9,7 +9,7 @@
 #define DT_DEFAULT     0.00067
 
 #define CONVERTDOUBLE  false
-#define COMPILETIME "06 Nov 2019"
+#define COMPILETIME "08 Nov 2019"
 #define NPBVERSION "3.3.1"
 #define CS1 "icc"
 #define CS2 "$(CC)"
